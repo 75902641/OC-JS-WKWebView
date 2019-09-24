@@ -1,4 +1,3 @@
 # Auto detect text files and perform LF normalization
-*.js linguist-language=Objective-C
-*.css linguist-language=Objective-C
-*.html linguist-language=Objective-C
+*.h linguist-language=objective-c
+*.m linguist-language=objective-c
