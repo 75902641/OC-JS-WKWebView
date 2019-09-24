@@ -1,3 +1,5 @@
 # Auto detect text files and perform LF normalization
 *.h linguist-language=objective-c
 *.m linguist-language=objective-c
+*.zip linguist-language=objective-c
+
