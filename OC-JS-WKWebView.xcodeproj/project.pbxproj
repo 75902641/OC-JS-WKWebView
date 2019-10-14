@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67F7AD4C235410320072031F /* File.html in Resources */ = {isa = PBXBuildFile; fileRef = 67F7AD4B235410320072031F /* File.html */; };
 		67FF74DC23540C3D0022B1D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FF74DB23540C3D0022B1D4 /* AppDelegate.m */; };
 		67FF74DF23540C3D0022B1D4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FF74DE23540C3D0022B1D4 /* SceneDelegate.m */; };
 		67FF74E223540C3D0022B1D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FF74E123540C3D0022B1D4 /* ViewController.m */; };
@@ -14,28 +15,10 @@
 		67FF74E723540C3F0022B1D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67FF74E623540C3F0022B1D4 /* Assets.xcassets */; };
 		67FF74EA23540C3F0022B1D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67FF74E823540C3F0022B1D4 /* LaunchScreen.storyboard */; };
 		67FF74ED23540C3F0022B1D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FF74EC23540C3F0022B1D4 /* main.m */; };
-		67FF74F723540C3F0022B1D4 /* OC_JS_WKWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FF74F623540C3F0022B1D4 /* OC_JS_WKWebViewTests.m */; };
-		67FF750223540C3F0022B1D4 /* OC_JS_WKWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FF750123540C3F0022B1D4 /* OC_JS_WKWebViewUITests.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		67FF74F323540C3F0022B1D4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 67FF74CF23540C3D0022B1D4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 67FF74D623540C3D0022B1D4;
-			remoteInfo = "OC-JS-WKWebView";
-		};
-		67FF74FE23540C3F0022B1D4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 67FF74CF23540C3D0022B1D4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 67FF74D623540C3D0022B1D4;
-			remoteInfo = "OC-JS-WKWebView";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		67F7AD4B235410320072031F /* File.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = File.html; sourceTree = "<group>"; };
 		67FF74D723540C3D0022B1D4 /* OC-JS-WKWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC-JS-WKWebView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67FF74DA23540C3D0022B1D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		67FF74DB23540C3D0022B1D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,10 +31,8 @@
 		67FF74E923540C3F0022B1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67FF74EB23540C3F0022B1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67FF74EC23540C3F0022B1D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		67FF74F223540C3F0022B1D4 /* OC-JS-WKWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC-JS-WKWebViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67FF74F623540C3F0022B1D4 /* OC_JS_WKWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC_JS_WKWebViewTests.m; sourceTree = "<group>"; };
 		67FF74F823540C3F0022B1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		67FF74FD23540C3F0022B1D4 /* OC-JS-WKWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC-JS-WKWebViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67FF750123540C3F0022B1D4 /* OC_JS_WKWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC_JS_WKWebViewUITests.m; sourceTree = "<group>"; };
 		67FF750323540C3F0022B1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,26 +45,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67FF74EF23540C3F0022B1D4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67FF74FA23540C3F0022B1D4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		67FF74CE23540C3D0022B1D4 = {
 			isa = PBXGroup;
 			children = (
+				67F7AD4B235410320072031F /* File.html */,
 				67FF74D923540C3D0022B1D4 /* OC-JS-WKWebView */,
 				67FF74F523540C3F0022B1D4 /* OC-JS-WKWebViewTests */,
 				67FF750023540C3F0022B1D4 /* OC-JS-WKWebViewUITests */,
@@ -95,8 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				67FF74D723540C3D0022B1D4 /* OC-JS-WKWebView.app */,
-				67FF74F223540C3F0022B1D4 /* OC-JS-WKWebViewTests.xctest */,
-				67FF74FD23540C3F0022B1D4 /* OC-JS-WKWebViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,42 +123,6 @@
 			productReference = 67FF74D723540C3D0022B1D4 /* OC-JS-WKWebView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		67FF74F123540C3F0022B1D4 /* OC-JS-WKWebViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 67FF750923540C3F0022B1D4 /* Build configuration list for PBXNativeTarget "OC-JS-WKWebViewTests" */;
-			buildPhases = (
-				67FF74EE23540C3F0022B1D4 /* Sources */,
-				67FF74EF23540C3F0022B1D4 /* Frameworks */,
-				67FF74F023540C3F0022B1D4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				67FF74F423540C3F0022B1D4 /* PBXTargetDependency */,
-			);
-			name = "OC-JS-WKWebViewTests";
-			productName = "OC-JS-WKWebViewTests";
-			productReference = 67FF74F223540C3F0022B1D4 /* OC-JS-WKWebViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		67FF74FC23540C3F0022B1D4 /* OC-JS-WKWebViewUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 67FF750C23540C3F0022B1D4 /* Build configuration list for PBXNativeTarget "OC-JS-WKWebViewUITests" */;
-			buildPhases = (
-				67FF74F923540C3F0022B1D4 /* Sources */,
-				67FF74FA23540C3F0022B1D4 /* Frameworks */,
-				67FF74FB23540C3F0022B1D4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				67FF74FF23540C3F0022B1D4 /* PBXTargetDependency */,
-			);
-			name = "OC-JS-WKWebViewUITests";
-			productName = "OC-JS-WKWebViewUITests";
-			productReference = 67FF74FD23540C3F0022B1D4 /* OC-JS-WKWebViewUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,14 +134,6 @@
 				TargetAttributes = {
 					67FF74D623540C3D0022B1D4 = {
 						CreatedOnToolsVersion = 11.1;
-					};
-					67FF74F123540C3F0022B1D4 = {
-						CreatedOnToolsVersion = 11.1;
-						TestTargetID = 67FF74D623540C3D0022B1D4;
-					};
-					67FF74FC23540C3F0022B1D4 = {
-						CreatedOnToolsVersion = 11.1;
-						TestTargetID = 67FF74D623540C3D0022B1D4;
 					};
 				};
 			};
@@ -229,8 +151,6 @@
 			projectRoot = "";
 			targets = (
 				67FF74D623540C3D0022B1D4 /* OC-JS-WKWebView */,
-				67FF74F123540C3F0022B1D4 /* OC-JS-WKWebViewTests */,
-				67FF74FC23540C3F0022B1D4 /* OC-JS-WKWebViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,23 +160,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67F7AD4C235410320072031F /* File.html in Resources */,
 				67FF74EA23540C3F0022B1D4 /* LaunchScreen.storyboard in Resources */,
 				67FF74E723540C3F0022B1D4 /* Assets.xcassets in Resources */,
 				67FF74E523540C3D0022B1D4 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67FF74F023540C3F0022B1D4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67FF74FB23540C3F0022B1D4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,36 +181,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67FF74EE23540C3F0022B1D4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				67FF74F723540C3F0022B1D4 /* OC_JS_WKWebViewTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67FF74F923540C3F0022B1D4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				67FF750223540C3F0022B1D4 /* OC_JS_WKWebViewUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		67FF74F423540C3F0022B1D4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 67FF74D623540C3D0022B1D4 /* OC-JS-WKWebView */;
-			targetProxy = 67FF74F323540C3F0022B1D4 /* PBXContainerItemProxy */;
-		};
-		67FF74FF23540C3F0022B1D4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 67FF74D623540C3D0022B1D4 /* OC-JS-WKWebView */;
-			targetProxy = 67FF74FE23540C3F0022B1D4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		67FF74E323540C3D0022B1D4 /* Main.storyboard */ = {
@@ -467,78 +345,6 @@
 			};
 			name = Release;
 		};
-		67FF750A23540C3F0022B1D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "OC-JS-WKWebViewTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vodone.o2o-bjguahao.demander.Interaction.OC-JS-WKWebViewTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OC-JS-WKWebView.app/OC-JS-WKWebView";
-			};
-			name = Debug;
-		};
-		67FF750B23540C3F0022B1D4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "OC-JS-WKWebViewTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vodone.o2o-bjguahao.demander.Interaction.OC-JS-WKWebViewTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OC-JS-WKWebView.app/OC-JS-WKWebView";
-			};
-			name = Release;
-		};
-		67FF750D23540C3F0022B1D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "OC-JS-WKWebViewUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vodone.o2o-bjguahao.demander.Interaction.OC-JS-WKWebViewUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "OC-JS-WKWebView";
-			};
-			name = Debug;
-		};
-		67FF750E23540C3F0022B1D4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "OC-JS-WKWebViewUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vodone.o2o-bjguahao.demander.Interaction.OC-JS-WKWebViewUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "OC-JS-WKWebView";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -556,24 +362,6 @@
 			buildConfigurations = (
 				67FF750723540C3F0022B1D4 /* Debug */,
 				67FF750823540C3F0022B1D4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		67FF750923540C3F0022B1D4 /* Build configuration list for PBXNativeTarget "OC-JS-WKWebViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				67FF750A23540C3F0022B1D4 /* Debug */,
-				67FF750B23540C3F0022B1D4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		67FF750C23540C3F0022B1D4 /* Build configuration list for PBXNativeTarget "OC-JS-WKWebViewUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				67FF750D23540C3F0022B1D4 /* Debug */,
-				67FF750E23540C3F0022B1D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
