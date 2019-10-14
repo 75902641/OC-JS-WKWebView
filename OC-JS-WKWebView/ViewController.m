@@ -37,12 +37,12 @@
     [super viewWillDisappear:animated];
     [self.wkWebView.configuration.userContentController removeScriptMessageHandlerForName:@"oh_initWithFrame"];
     [self.wkWebView.configuration.userContentController removeScriptMessageHandlerForName:@"oh_backgroundColor"];
-    [self.wkWebView.configuration.userContentController addScriptMessageHandler:self name:@"oh_buttonWithType"];
-    [self.wkWebView.configuration.userContentController addScriptMessageHandler:self name:@"oh_addTargetActionForControlEvents"];
-    [self.wkWebView.configuration.userContentController addScriptMessageHandler:self name:@"oh_setTitleForState"];
-    [self.wkWebView.configuration.userContentController addScriptMessageHandler:self name:@"oh_setTitleColorForState"];
-    [self.wkWebView.configuration.userContentController addScriptMessageHandler:self name:@"oh_setImageForState"];
-    [self.wkWebView.configuration.userContentController addScriptMessageHandler:self name:@"oh_buttonTitleLabelFont"];
+    [self.wkWebView.configuration.userContentController removeScriptMessageHandlerForName:@"oh_buttonWithType"];
+    [self.wkWebView.configuration.userContentController removeScriptMessageHandlerForName:@"oh_addTargetActionForControlEvents"];
+    [self.wkWebView.configuration.userContentController removeScriptMessageHandlerForName:@"oh_setTitleForState"];
+    [self.wkWebView.configuration.userContentController removeScriptMessageHandlerForName:@"oh_setTitleColorForState"];
+    [self.wkWebView.configuration.userContentController removeScriptMessageHandlerForName:@"oh_setImageForState"];
+    [self.wkWebView.configuration.userContentController removeScriptMessageHandlerForName:@"oh_buttonTitleLabelFont"];
 
     
 }
