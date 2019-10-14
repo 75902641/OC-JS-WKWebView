@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        
+        <title id = "title">H5页</title>
+        
+        
+    </header>
+    
+    <body>
+        
+        <script type="text/javascript">
+            
+            var phoneWidth = 0;
+            var phoneHeight = 0;
+            
+            function widthAndHeight(width,height) {//获取oc传过来的值 宽 高
+                
+                phoneWidth = width;//宽
+                phoneHeight = height;//高
+                
+                var x1 = (phoneWidth - 300)/4;
+                var x2 = (phoneWidth - 300)/4 * 2 + 100;
+                var x3 = (phoneWidth - 300)/4 * 3 + 200;
+                
+                
+                //初始化一个UIView
+                window.webkit.messageHandlers.oh_initWithFrame.postMessage(["UIView", "1", x1.toString(),"220","100","100"]);//控件 tag x y width height
+                //UIView的背景色
+                window.webkit.messageHandlers.oh_backgroundColor.postMessage(["1","198","50","38","1"]);//tag red green blue alpha
+                
+                
+                
+                //初始化一个按钮
+                window.webkit.messageHandlers.oh_initWithFrame.postMessage(["UIButton", "2", x2.toString(),"220","100","100"]);//控件 tag x y width height
+                //按钮的背景色
+                window.webkit.messageHandlers.oh_backgroundColor.postMessage(["2","55","0","38","1"]);//tag red green blue alpha
+                //按钮添加点击事件
+                /*
+                 UIControlEventTouchDown                                         = 1 <<  0,      // on all touch downs
+                 UIControlEventTouchDownRepeat                                   = 1 <<  1,      // on multiple touchdowns (tap count > 1)
+                 UIControlEventTouchDragInside                                   = 1 <<  2,
+                 UIControlEventTouchDragOutside                                  = 1 <<  3,
+                 UIControlEventTouchDragEnter                                    = 1 <<  4,
+                 UIControlEventTouchDragExit                                     = 1 <<  5,
+                 UIControlEventTouchUpInside                                     = 1 <<  6,
+                 UIControlEventTouchUpOutside                                    = 1 <<  7,
+                 UIControlEventTouchCancel                                       = 1 <<  8,
+                 
+                 UIControlEventValueChanged                                      = 1 << 12,     // sliders, etc.
+                 UIControlEventPrimaryActionTriggered NS_ENUM_AVAILABLE_IOS(9_0) = 1 << 13,     // semantic action: for buttons, etc.
+                 
+                 UIControlEventEditingDidBegin                                   = 1 << 16,     // UITextField
+                 UIControlEventEditingChanged                                    = 1 << 17,
+                 UIControlEventEditingDidEnd                                     = 1 << 18,
+                 UIControlEventEditingDidEndOnExit                               = 1 << 19,     // 'return key' ending editing
+                 
+                 UIControlEventAllTouchEvents                                    = 0x00000FFF,  // for touch events
+                 UIControlEventAllEditingEvents                                  = 0x000F0000,  // for UITextField
+                 UIControlEventApplicationReserved                               = 0x0F000000,  // range available for application use
+                 UIControlEventSystemReserved                                    = 0xF0000000,  // range reserved for internal framework use
+                 UIControlEventAllEvents                                         = 0xFFFFFFFF
+                 
+                 */
+                window.webkit.messageHandlers.oh_addTargetActionForControlEvents.postMessage(["2", "7"]);//tag 点击事件
+                //点击事件由pressOhButton(tag)返回 返回值是当前按钮的tag值 可以通过tag值判断点击了哪个按钮
+                
+                
+                /*
+                UIControlStateNormal       = 0,
+                UIControlStateHighlighted  = 1 << 0,                  // used when UIControl isHighlighted is set
+                UIControlStateDisabled     = 1 << 1,
+                UIControlStateSelected     = 1 << 2,                  // flag usable by app (see below)
+                UIControlStateFocused NS_ENUM_AVAILABLE_IOS(9_0) = 1 << 3, // Applicable only when the screen supports focus
+                UIControlStateApplication  = 0x00FF0000,              // additional flags available for application use
+                UIControlStateReserved     = 0xFF000000               // flags reserved for internal framework use
+                 */
+                window.webkit.messageHandlers.oh_setTitleForState.postMessage(["2", "html按钮", "0"]);//按钮上的文字 传参 tag 文字 状态
+                window.webkit.messageHandlers.oh_setTitleColorForState.postMessage(["2","255","255","255","1", "0"]);//按钮上的文字颜色 传参tag red green blue alpha 状态
+                window.webkit.messageHandlers.oh_setImageForState.postMessage(["2","xxx.png","0",]);//按钮上的文字颜色 传参tag 图片名字 状态
+                window.webkit.messageHandlers.oh_buttonTitleLabelFont.postMessage(["2", "16"]);///按钮上的文字大小 传参 tag 文字大小
+
+                
+                
+                
+                
+                
+                
+                //初始化一个UIImageView
+                window.webkit.messageHandlers.oh_initWithFrame.postMessage(["UIImageView", "3", x3.toString(),"220","100","100"]);//控件 tag x y width height
+                //imageView的背景色
+                window.webkit.messageHandlers.oh_backgroundColor.postMessage(["3","2","50","0","1"]);//tag red green blue alpha
+
+                
+                
+                
+                
+                
+                
+                
+                
+            }
+        
+        function pressOhButton(tag) {//按钮点击事件
+            
+            
+            document.body.style.backgroundColor="red";
+            
+        }
+        
+        
+        
+        
+        
+            </script>
+        
+        
+        
+        
+    </body>
+    
+    
+    
+</html>
